@@ -1,0 +1,28 @@
+.clock-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; 
+   
+  }
+  
+  .digital-clock {
+    float:left;
+    font-family: 'Orbitron', sans-serif;
+    color: #4CAF50; 
+    font-size: 48px; 
+    letter-spacing: 2px; 
+    text-shadow: 0 0 20px #4CAF50; 
+    padding: 20px 40px;
+    border: 1px solid #4CAF50; 
+    border-radius: 10px; 
+    background-color: #000; 
+  }
+
+.clockText {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 24px; 
+    float: left;
+    padding: 45px;
+}
+  
