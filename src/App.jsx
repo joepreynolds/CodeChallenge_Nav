@@ -15,6 +15,7 @@ import Clock from './Clock';
       };
   
       // Update cityName on component mount and hash change
+      //vanillaJS
       updateCityFromHash();
       window.addEventListener('hashchange', updateCityFromHash);
   

@@ -36,20 +36,19 @@ const Clock = ({ cityName }) => {
     };
 
     updateTime();
-    const intervalId = setInterval(updateTime, 1000); // Update time every second
+    //vanilla.js
+    const intervalId = setInterval(updateTime, 1000);
 
-    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+    return () => clearInterval(intervalId); 
   }, [cityName]);
 
   return (
-    <div>
-      <p className='clockText'>The local time in <strong>{cityName} </strong>is: </p>
-      <br/>
-      <div class="clock-container">
-      <div class="digital-clock">
-        {localTime}
-      </div>
-    </div>
+    
+      <div>
+        <p className='clockText'>The local time in <strong>{cityName} </strong>is: </p>
+        <div className="digital-clock">
+          {localTime}
+        </div>
     </div>
   );
 };
